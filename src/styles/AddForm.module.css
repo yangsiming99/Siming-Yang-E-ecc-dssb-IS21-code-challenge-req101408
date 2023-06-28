@@ -1,0 +1,33 @@
+.formBackground {
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 100vw;
+    height: 100vh;
+    padding: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow-x: hidden; */
+}
+
+.formPanel {
+    width: 600px;
+    height: 900px;
+    padding: 2em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.buttonBar {
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    font-family: '__Inter_0ec1f4', '__Inter_Fallback_0ec1f4';
+}
+
+.actionButtons {
+    width: 12em;
+}

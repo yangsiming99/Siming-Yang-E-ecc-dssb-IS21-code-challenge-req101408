@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #003077;
+}
+
+.panelBorder {
+  width: 80vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.tablePanel {
+  width: 100%;
+  max-height: 75vh;
+  min-height: 75vh;
+  overflow-y: auto;
+  background-color: rgb(238, 238, 238);
+  padding: 1.5em;
+  border-radius: 0px;
+}
